@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - INFINITE POTENTIAL</title>
+    <link rel="stylesheet" href="Css/form.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="http://code.jquery.com/jquery-3.5.1.js"></script>
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <script>
+        $(document).ready(function() {
+            $('#icon').click(function() {
+                $('ul').toggleClass('show');
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <label class="logo">Infinite Potential</label>
+            <ul>
+                <li><a class="active" href="../index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="form.html">Sign Up</a></li>
+            </ul>
+            <label id="icon">
+                <i class="fas fa-bars"></i>
+            </label>
+        </nav>
+    </header>
+    <div class="wrapper">
+        <section>
+            <div class="container">
+                <div class="header">
+                    <h2>Create Account</h2>
+                </div>
+                <form id="form" class="form">
+                    <div class="form-control">
+                        <label for="username">FirstName</label>
+                        <input type="text" placeholder="John" id="firstname" />
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </div>
+                    <div class="form-control">
+                        <label for="username">LastName</label>
+                        <input type="text" placeholder="Doe" id="lastname" />
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </div>
+                    <div class="form-control">
+                        <label for="username">Email</label>
+                        <input type="email" placeholder="jdoe@email.com" id="email" />
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </div>
+                    <div class="form-control">
+                        <label for="username">Phone</label>
+                        <input type="tel" placeholder="Phone Number" id="phone" />
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </div>
+                    <div class="form-control">
+                        <label for="username">Date of Birth</label>
+                        <input type="date" placeholder="__/__/____" id="dob" />
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </div>
+                    <div class="form-control">
+                        <label for="username">Gender</label>
+                        <select name="gender" id="gender">
+                    <option selected="" value=""></option>
+                    <option value="Female">Female</option>
+                    <option value="Male">Male</option>
+                    <option value="Unspecified">Unspecified</option>
+                </select>
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </div>
+                    <div class="form-control">
+                        <label for="username">Address</label>
+                        <input type="text" placeholder="Address Line" id="address" />
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </div>
+                    <div class="form-control">
+                        <label for="username">Zipcode</label>
+                        <input type="text" placeholder="Zip" id="zip" />
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </div>
+                    <div class="form-control">
+                        <label for="username">City</label>
+                        <input type="text" placeholder="eg: New york" id="city" />
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </div>
+                    <div class="form-control">
+                        <label for="username">State</label>
+                        <select name="state" id="state">
+                    <option selected="" value=""></option>
+                <option value="AL">AL</option>
+                <option value="AK">AK</option>
+                <option value="AZ">AZ</option>
+                <option value="AR">AR</option>
+                <option value="CA">CA</option>
+                <option value="CO">CO</option>
+                <option value="DC">DC</option>
+                <option value="CT">CT</option>
+                <option value="DE">DE</option>
+                <option value="FL">FL</option>
+                <option value="GA">GA</option>
+                <option value="HI">HI</option>
+                <option value="ID">ID</option>
+                <option value="IL">IL</option>
+                <option value="IN">IN</option>
+                <option value="IA">IA</option>
+                <option value="KS">KS</option>
+                <option value="KY">KY</option>
+                <option value="LA">LA</option>
+                <option value="ME">ME</option>
+                <option value="MD">MD</option>
+                <option value="MA">MA</option>
+                <option value="MI">MI</option>
+                <option value="MN">MN</option>
+                <option value="MS">MS</option>
+                <option value="MO">MO</option>
+                <option value="MT">MT</option>
+                <option value="NE">NE</option>
+                <option value="NV">NV</option>
+                <option value="NH">NH</option>
+                <option value="NJ">NJ</option>
+                <option value="NM">NM</option>
+                <option value="NY">NY</option>
+                <option value="NC">NC</option>
+                <option value="ND">ND</option>
+                <option value="OH">OH</option>
+                <option value="OK">OK</option>
+                <option value="OR">OR</option>
+                <option value="PA">PA</option>
+                <option value="RI">RI</option>
+                <option value="SC">SC</option>
+                <option value="SD">SD</option>
+                <option value="TN">TN</option>
+                <option value="TX">TX</option>
+                <option value="UT">UT</option>
+                <option value="VT">VT</option>
+                <option value="VA">VA</option>
+                <option value="WA">WA</option>
+                <option value="WV">WV</option>
+                <option value="WI">WI</option>
+                <option value="WY">WY</option>
+                </select>
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </div>
+                    <button>Submit</button>
+                </form>
+            </div>
+        </section>
+        <script src="JavaScript/script.js"></script>
+    </div>
+    <div class="foot">
+        <a href="#top">Top</a>
+        <h2>Contact Us:</h2>
+        <p>Email: <a href="mailto:someone@example.com?">someone@example.com</a> </p>
+        <p>Mobile: <a href="tel:+1 206 555 0100">+1-206-555-0100</a> </p>
+        <p>Copyrights&copy; Reserved 1980-2000 </p>
+    </div>
+</body>
+
+</html>
